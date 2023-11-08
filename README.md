@@ -1,3 +1,8 @@
+![image](https://github.com/mahidharadhargaur/manufacturing-software-platform/assets/50617746/18a5fbe8-e708-4b82-a600-7c99975dc6a1)
+![image](https://github.com/mahidharadhargaur/manufacturing-software-platform/assets/50617746/45d52766-5d13-4fd9-b012-38ef5ff0b271)
+
+
+
 # ManufacturingSoftwarePlatform
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
