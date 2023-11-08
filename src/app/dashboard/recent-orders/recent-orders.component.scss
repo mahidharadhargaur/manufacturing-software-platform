@@ -1,0 +1,59 @@
+.orders-container {
+  overflow-y: scroll;
+  height: 300px;
+  letter-spacing: 0.4px;
+  border-bottom: 20px;
+
+  .card-heading {
+    font-size: 15px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+  }
+
+  .table-header {
+    color: black;
+  }
+
+  .order-table {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: rgb(111, 111, 111);
+    font-family: Arial, Helvetica, sans-serif;
+
+    .table-header,
+    .table-row {
+      display: flex;
+      border-top: 1px solid lightgrey;
+      padding-top: 15px;
+      & div:not(:first-of-type) {
+        flex: 1;
+      }
+
+      & div:first-of-type {
+        margin-right: 5px;
+      }
+
+      .order-status {
+        padding: 5px 10px;
+        border-radius: 2px;
+        font-size: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        // align-content: center;
+
+        &.failed {
+          background-color: rgb(168, 26, 26);
+        }
+        &.paid {
+          background-color: rgb(6, 196, 6);
+        }
+        &.pending {
+          background-color: rgb(124, 135, 158);
+        }
+      }
+    }
+  }
+}

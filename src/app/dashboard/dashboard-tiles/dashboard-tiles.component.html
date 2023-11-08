@@ -1,0 +1,16 @@
+<div class="tiles">
+  <ng-container *ngFor="let tile of tiles | async">
+    <div class="tile">
+      <div class="tile-value">
+        <div>{{ tile.value }}%</div>
+        <div>
+          <span class="material-symbols-outlined">{{ tile.icon }}</span>
+        </div>
+      </div>
+      <div>
+        <p class="tile-header">{{ tile.header }}</p>
+        <p class="tile-sub-header">{{ tile.subHeader }}</p>
+      </div>
+    </div>
+  </ng-container>
+</div>

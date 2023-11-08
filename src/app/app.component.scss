@@ -1,0 +1,30 @@
+@import "../assets/colors.scss";
+@import "../assets/variables.scss";
+
+main.main-app {
+  // width: 100%;
+  // height: 100%;
+  padding-top: $header-height;
+  padding-left: $sidenav-width;
+  position: relative;
+  background-color: $app-light-blue;
+}
+:host ::ng-deep {
+  .main-icon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: $sidenav-width;
+    height: $header-height;
+    background-color: $app-blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    .svg-inline--fa {
+      color: white;
+      display: flex;
+    }
+  }
+}

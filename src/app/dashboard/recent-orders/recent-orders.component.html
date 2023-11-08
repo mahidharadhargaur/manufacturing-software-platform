@@ -1,0 +1,32 @@
+<div class="orders-container card">
+  <div class="card-heading">Recent Orders</div>
+  <div class="order-table">
+    <div class="table-header">
+      <div>#</div>
+      <div>Customer</div>
+      <div>Products</div>
+      <div>Delivery Date</div>
+      <div class="text-center">Status</div>
+      <div>Tracking No#</div>
+      <div>Shipping</div>
+      <div></div>
+    </div>
+    <ng-container *ngFor="let order of recentOrders | async; let i = index">
+      <div class="table-row">
+        <div>{{ i + 1 }}</div>
+        <div>{{ order.name }}</div>
+        <div>{{ order.product }}</div>
+        <div>{{ order.delivery_date | date }}</div>
+        <div class="text-center">
+          <span class="order-status" [ngClass]="order.status | lowercase">
+            {{ order.status }}
+          </span>
+        </div>
+        <div>{{ order.tracking_no }}</div>
+        <div>{{ order.shipping ? "Yes" : "No" }}</div>
+        <div>x</div>
+      </div>
+    </ng-container>
+  </div>
+  <div></div>
+</div>

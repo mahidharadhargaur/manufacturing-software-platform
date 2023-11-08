@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "./assets/colors.scss";
+html,
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.svg-inline--fa {
+  color: rgb(162, 161, 161);
+}
+
+.card-heading {
+  font-size: 15px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}

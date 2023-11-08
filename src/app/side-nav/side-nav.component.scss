@@ -1,0 +1,19 @@
+.main-side-nav {
+  width: 64px;
+  position: fixed;
+  height: 100%;
+  background-color: white;
+  left: 0;
+  padding-top: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+}

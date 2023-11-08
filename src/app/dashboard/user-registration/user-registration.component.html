@@ -1,0 +1,19 @@
+<div class="users-container card">
+  <div class="card-heading">New User Registrations</div>
+
+  <ng-container *ngFor="let user of users | async; let i = index">
+    <div class="user-entry">
+      <div>
+        <img [src]="user.picture" />
+      </div>
+      <div>
+        <p class="name">{{ user.name }}</p>
+        <p class="country">{{ user.country }}</p>
+      </div>
+      <div><app-progress-bar [value]="user.progress"></app-progress-bar></div>
+      <div>
+        <button class="more">More</button>
+      </div>
+    </div>
+  </ng-container>
+</div>

@@ -1,0 +1,37 @@
+.content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  & .section-two {
+    display: flex;
+    gap: 20px;
+    app-recent-orders {
+      display: block;
+      flex: 65%;
+    }
+    app-user-registration {
+      display: block;
+      flex: 35%;
+    }
+  }
+  & .section-three {
+    display: flex;
+    gap: 20px;
+    & > * {
+      flex: 1;
+    }
+    // app-line-chart {
+    //   display:block;
+    //   flex: 35%;
+    // }
+    // app-column-chart{
+    //   display: block;
+    //   flex: 35%;
+    // }
+    // app-donut-chart{
+    //   display: block;
+    //   flex: 30%;
+    // }
+  }
+}
