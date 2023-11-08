@@ -1,5 +1,5 @@
-![image](https://github.com/mahidharadhargaur/manufacturing-software-platform/assets/50617746/18a5fbe8-e708-4b82-a600-7c99975dc6a1)
-![image](https://github.com/mahidharadhargaur/manufacturing-software-platform/assets/50617746/45d52766-5d13-4fd9-b012-38ef5ff0b271)
+![Screenshot 2023-11-08 1842291111](https://github.com/mahidharadhargaur/manufacturing-software-platform/assets/50617746/9f5fd1c1-a4c1-4818-a5fb-0a487fc891da)
+![Screenshot 2023-11-08 1844362222](https://github.com/mahidharadhargaur/manufacturing-software-platform/assets/50617746/a6fdaf60-cd90-4960-896c-edc0638c4ee6)
 
 
 
